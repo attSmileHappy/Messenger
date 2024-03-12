@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B33E5E72BA0A12700CE438F /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33E5E62BA0A12700CE438F /* DIContainer.swift */; };
+		3B33E5EA2BA0A1BE00CE438F /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B33E5E92BA0A1BE00CE438F /* Services.swift */; };
 		3B9E38DF2BA07C0600190840 /* MessengerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E38DE2BA07C0600190840 /* MessengerApp.swift */; };
-		3B9E38E12BA07C0600190840 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E38E02BA07C0600190840 /* ContentView.swift */; };
+		3B9E38E12BA07C0600190840 /* AuthenticatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E38E02BA07C0600190840 /* AuthenticatedView.swift */; };
 		3B9E38E32BA07C0900190840 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9E38E22BA07C0900190840 /* Assets.xcassets */; };
 		3B9E38E62BA07C0900190840 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9E38E52BA07C0900190840 /* Preview Assets.xcassets */; };
 		3B9E38F02BA07C0900190840 /* MessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E38EF2BA07C0900190840 /* MessengerTests.swift */; };
 		3B9E38FA2BA07C0900190840 /* MessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E38F92BA07C0900190840 /* MessengerUITests.swift */; };
 		3B9E38FC2BA07C0900190840 /* MessengerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E38FB2BA07C0900190840 /* MessengerUITestsLaunchTests.swift */; };
+		3B9E390A2BA07F5700190840 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9E39092BA07F5700190840 /* Colors.xcassets */; };
+		3B9E39112BA0836A00190840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9E39102BA0836A00190840 /* LaunchScreen.storyboard */; };
+		3BED14272BA0A447007632F4 /* AuthenticatedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BED14262BA0A447007632F4 /* AuthenticatedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B33E5E22BA09F8C00CE438F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3B33E5E62BA0A12700CE438F /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		3B33E5E92BA0A1BE00CE438F /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		3B9E38DB2BA07C0600190840 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9E38DE2BA07C0600190840 /* MessengerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerApp.swift; sourceTree = "<group>"; };
-		3B9E38E02BA07C0600190840 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B9E38E02BA07C0600190840 /* AuthenticatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedView.swift; sourceTree = "<group>"; };
 		3B9E38E22BA07C0900190840 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B9E38E52BA07C0900190840 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B9E38EB2BA07C0900190840 /* MessengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,9 @@
 		3B9E38F52BA07C0900190840 /* MessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9E38F92BA07C0900190840 /* MessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerUITests.swift; sourceTree = "<group>"; };
 		3B9E38FB2BA07C0900190840 /* MessengerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B9E39092BA07F5700190840 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		3B9E39102BA0836A00190840 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3BED14262BA0A447007632F4 /* AuthenticatedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +82,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B33E5E32BA0A0D000CE438F /* General */ = {
+			isa = PBXGroup;
+			children = (
+				3B33E5E62BA0A12700CE438F /* DIContainer.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		3B33E5E82BA0A1A000CE438F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3B33E5E92BA0A1BE00CE438F /* Services.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3B33E5EB2BA0A2EA00CE438F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BED14252BA0A411007632F4 /* Authenticated */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3B9E38D22BA07C0500190840 = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +129,13 @@
 		3B9E38DD2BA07C0600190840 /* Messenger */ = {
 			isa = PBXGroup;
 			children = (
+				3B33E5E22BA09F8C00CE438F /* Info.plist */,
 				3B9E38DE2BA07C0600190840 /* MessengerApp.swift */,
-				3B9E38E02BA07C0600190840 /* ContentView.swift */,
-				3B9E38E22BA07C0900190840 /* Assets.xcassets */,
+				3B33E5EB2BA0A2EA00CE438F /* View */,
+				3B33E5E82BA0A1A000CE438F /* Service */,
+				3B33E5E32BA0A0D000CE438F /* General */,
+				3B9E390B2BA080ED00190840 /* Extension */,
+				3B9E39082BA07F1900190840 /* Resource */,
 				3B9E38E42BA07C0900190840 /* Preview Content */,
 			);
 			path = Messenger;
@@ -125,6 +164,32 @@
 				3B9E38FB2BA07C0900190840 /* MessengerUITestsLaunchTests.swift */,
 			);
 			path = MessengerUITests;
+			sourceTree = "<group>";
+		};
+		3B9E39082BA07F1900190840 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3B9E38E22BA07C0900190840 /* Assets.xcassets */,
+				3B9E39092BA07F5700190840 /* Colors.xcassets */,
+				3B9E39102BA0836A00190840 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		3B9E390B2BA080ED00190840 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		3BED14252BA0A411007632F4 /* Authenticated */ = {
+			isa = PBXGroup;
+			children = (
+				3B9E38E02BA07C0600190840 /* AuthenticatedView.swift */,
+				3BED14262BA0A447007632F4 /* AuthenticatedViewModel.swift */,
+			);
+			path = Authenticated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +296,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9E390A2BA07F5700190840 /* Colors.xcassets in Resources */,
+				3B9E39112BA0836A00190840 /* LaunchScreen.storyboard in Resources */,
 				3B9E38E62BA07C0900190840 /* Preview Assets.xcassets in Resources */,
 				3B9E38E32BA07C0900190840 /* Assets.xcassets in Resources */,
 			);
@@ -257,7 +324,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B9E38E12BA07C0600190840 /* ContentView.swift in Sources */,
+				3BED14272BA0A447007632F4 /* AuthenticatedViewModel.swift in Sources */,
+				3B9E38E12BA07C0600190840 /* AuthenticatedView.swift in Sources */,
+				3B33E5EA2BA0A1BE00CE438F /* Services.swift in Sources */,
+				3B33E5E72BA0A12700CE438F /* DIContainer.swift in Sources */,
 				3B9E38DF2BA07C0600190840 /* MessengerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,11 +495,12 @@
 				DEVELOPMENT_TEAM = DGQ8WLKT8J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Messenger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +525,12 @@
 				DEVELOPMENT_TEAM = DGQ8WLKT8J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Messenger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
