@@ -11,16 +11,16 @@ struct AuthenticatedView: View {
     @StateObject var authViewModel : AuthenticatedViewModel
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        switch authViewModel.authenticationState {
+        case .unauthticated:
+            LoginIntroView()
+        case .authticated:
+            MainTabView()
         }
-        .padding()
     }
 }
 
 #Preview {
-    AuthenticatedView(authViewModel: .init())
+    // 프리뷰는 firebase와의 연동 및 네트워크 통신 등의 작업이 필요 없으므로 프리뷰용 서비스를 만들어서 주입이 가능.
+    AuthenticatedView(authViewModel: .init(container: .init(services: StubService())))
 }
